@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "TikTok Shop Order Scanner",
+  "description": "Scan and copy TikTok Shop order data from Tokopedia Seller page.",
+  "version": "1.0.1",
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://seller-id.tokopedia.com/chat/inbox/current*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://seller-id.tokopedia.com/chat/inbox/current*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

@@ -1,0 +1,27 @@
+#tiktok-order-scanner { position: fixed; top: 14px; right: 14px; z-index: 99999; width: 300px; max-width: 92vw; max-height: 85vh;
+  overflow: hidden; background: #fff; border: 2px solid #000; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  font-family: Arial, sans-serif; }
+.tos-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; }
+.tos-title-wrap { min-width: 0; }
+.tos-title { font-size: 14px; font-weight: normal; margin: 0; }
+.tos-username { font-size: 16px; font-weight: bold; word-break: break-all; margin-top: 2px; }
+.tos-toggle { border: 2px solid #000; background: #fff; border-radius: 10px; width: 28px; height: 28px; font-size: 14px; cursor: pointer; }
+.tos-body { overflow-y: auto; max-height: calc(85vh - 54px); padding-bottom: 10px; }
+.tos-order-box { border: 2px solid #000; border-radius: 12px; margin: 10px 10px 0 10px; background: #fff; }
+.tos-status-bar { color: #fff; font-weight: bold; text-align: center; border-radius: 10px 10px 0 0; padding: 7px 0 6px 0;
+  font-size: 16px; letter-spacing: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tos-status-default { background: #000; }
+.tos-status-cancel { background: #d9534f; }
+.tos-status-pending { background: #f0ad4e; }
+.tos-status-shipping { background: #0275d8; }
+.tos-status-pickup { background: #6f42c1; }
+.tos-status-done { background: #5cb85c; }
+.tos-order-info { margin: 8px 10px 0 10px; font-size: 12px; line-height: 1.25; }
+.tos-row { margin: 6px 0; }
+.tos-k { font-weight: bold; display:block; }
+.tos-v { word-break: break-all; }
+.tos-copy-buttons { display: flex; justify-content: space-between; margin: 8px 10px 10px 10px; }
+.tos-copy-btn { flex: 1; margin: 0 4px; padding: 7px 0; border: 2px solid #000; border-radius: 10px; background: #fff; font-size: 14px;
+  font-weight: bold; cursor: pointer; transition: background 0.2s; }
+.tos-copy-btn:hover { background: #eee; }
+.tos-collapsed .tos-body { display: none; }
